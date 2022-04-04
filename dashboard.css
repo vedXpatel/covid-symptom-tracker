@@ -1,0 +1,34 @@
+.dashboard-title{
+    font-family: Yu Gothic UI;
+    font-size: 70px;
+    margin: 50px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    font-family: Yu Gothic UI;
+    font-size: 20px;
+    margin: 30px 50px 0px 50px;
+    width: 1800px;
+  }
+
+  th{
+      background-color: black;
+      color: white;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f5f3f3;
+  }
+
+  td button{
+      font-family: Yu Gothic UI;
+      font-size: 20px;
+  }

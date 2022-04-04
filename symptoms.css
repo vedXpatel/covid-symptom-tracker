@@ -1,0 +1,31 @@
+.dashboard-title{
+    font-family: Yu Gothic UI;
+    font-size: 70px;
+    margin: 50px;
+}
+
+.input-label{
+    font-size: 30px;
+    font-family: Yu Gothic UI;
+}
+
+.button{
+    font-size: 20px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    color: black;
+    padding: 3px 10px;
+}
+
+input{
+    height: 28px;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    color: black;
+}
+
+form{
+    padding: 0px 0px 0px 50px;
+}

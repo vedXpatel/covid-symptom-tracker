@@ -1,0 +1,49 @@
+* {
+  color: white;
+}
+
+.title {
+  padding: 100px 0px 0px 600px;
+  font-family: Yu Gothic UI;
+  font-size: 50px;
+}
+
+.login-title {
+  font-family: Yu Gothic UI;
+  font-size: 60px;
+}
+.login-form {
+  padding: 0px 680px;
+}
+
+.input-label {
+  font-size: 30px;
+  font-family: Yu Gothic UI;
+}
+
+.button {
+  font-size: 20px;
+  border-radius: 20px;
+  border: 2px solid gray;
+  color: black;
+  padding: 3px 10px;
+}
+
+input {
+  height: 28px;
+  width: 300px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  color: black;
+}
+
+body {
+  background: url("https://images.unsplash.com/photo-1584931423298-c576fda54bd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80");
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  background-repeat: no-repeat;
+  margin: 0px;
+  height: 1180px;
+}

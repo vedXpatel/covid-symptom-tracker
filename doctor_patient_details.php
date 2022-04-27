@@ -5,25 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="patientDashboard.css">
+    <link rel="stylesheet" href="css/patientDetails.css">
   </head>
-  <style>
-    table {
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-    }
-    
-    td, th {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-    }
-    
-    /* tr:nth-child(even) {
-      background-color: #dddddd;
-    } */
-    </style>
   <body>
       <h1 class="dashboard-title">Patient Details</h1>
       <h3>Patient Id:</h3>
@@ -32,7 +15,7 @@
       <h3>Sex: </h3>
       <h3>Blood Group: </h3>
       <br><br>
-      <h1 class="dashboard-title">Daily Symptoms</h1>
+      <h1  class="dashboard-title">Daily Symptoms</h1>
     
       <table>
         <thead>
@@ -87,25 +70,23 @@
       </table>
       <br><br>
 
-      <h2 class="dashboard-title">Prescribed Medicine</h2>
-      <table>
-          <thead><tr>
-              <th>Date</th>
-              <th>Medicine Prescribed</th>
-          </tr></thead>
-          <tbody>
-              <tr>
-                  <td>01/01/2022</td>
-                  <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit neque voluptatum laborum qui iste vel non enim deserunt molestiae distinctio, ipsum odio harum tempore dignissimos laudantium at, nam totam quas!
-                  </td>
-              </tr>
-              <tr>
-                  <td>01/01/2022</td>
-                  <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit neque voluptatum laborum qui iste vel non enim deserunt molestiae distinctio, ipsum odio harum tempore dignissimos laudantium at, nam totam quas!
-                  </td>
-              </tr>
-          </tbody>
-      </table>
+      <h2 class="dashboard-title">Prescribe Medicine</h2>
+      <form action="">
+          <label class="input-label" class="input-label" for="">Date</label>
+          <input class="input" type="date">
+          <br>
+          <br>
+          <label class="input-label" for="">Prescription Id</label>
+          <input class="input" type="number">
+          <br>
+          <br>
+          <label class="input-label" for="">Medicines: </label>
+          <br>
+          <textarea name="" id="" cols="30" rows="5"></textarea>
+          <br>
+          <br>
+          <button class="button">Submit</button>
+      </form>
 
   </body>
 </html>

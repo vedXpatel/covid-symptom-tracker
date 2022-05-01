@@ -1,4 +1,4 @@
-*{
+/* *{
     color: white;
 }
 
@@ -46,5 +46,378 @@ body{
     background-repeat: no-repeat;
     margin: 0px;
     height: 1080px;
+} */
+
+.col-lg-6 {
+    padding: 0px;
 }
 
+
+@font-face {
+    font-family: "Gotham Pro";
+    src: url("./fonts/Gotham\ Pro\ Regular.ttf")
+}
+
+.login-left {
+    /* background-color: #4D2BFF; */
+    height: 1080px;
+    width: 948px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.login-left1 {
+    position: relative;
+    height: 1080px;
+    width: 948px;
+    left: -12px;
+    top: 0px;
+    border-radius: 0px;
+    /* opacity: 0.2; */
+    /* z-index: 10; */
+}
+
+h1{
+    font-family: Gotham Pro;
+}
+
+.left-container{
+    z-index: 1;
+}
+
+.right-container{
+    z-index: 2;
+}
+
+.container {
+    margin-left: 0px;
+}
+
+.login-text-left {
+    position: absolute;
+    width: 716px;
+    height: 280px;
+    left: 112px;
+    top: 287px;
+
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 80px;
+    /* or 123% */
+
+
+    color: #FFFFFF;
+
+}
+
+.login-text-right {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 1079px;
+    top: 127px;
+
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 150%;
+    /* identical to box height, or 90px */
+
+    display: flex;
+    align-items: center;
+
+    color: #1F2937;
+}
+
+.signup-text-right {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 1079px;
+    top: 67px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 150%;
+    /* identical to box height, or 90px */
+
+    display: flex;
+    align-items: center;
+
+    color: #1F2937;
+}
+
+.play-button {
+    position: absolute;
+    width: 260px;
+    height: 90px;
+    left: 110px;
+    top: 619px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+}
+
+.login-welcome {
+    position: absolute;
+    width: 165px;
+    height: 19px;
+    left: 1079px;
+    top: 284px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* 800 */
+
+    color: #2D3748;
+}
+
+.signup-welcome {
+    position: absolute;
+    width: 165px;
+    height: 19px;
+    left: 1079px;
+    top: 184px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2D3748;
+}
+
+.login-text-1 {
+    position: absolute;
+    /* width: 292px; */
+    height: 35px;
+    left: 1079px;
+    top: 318px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+
+    /* 900 */
+
+    color: #1A202C;
+}
+
+.signup-text-1 {
+    position: absolute;
+    width: 276px;
+    height: 35px;
+    left: 1079px;
+    top: 218px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+
+    /* 900 */
+
+    color: #1A202C;
+}
+
+.text-name1 {
+    position: absolute;
+    left: 1079px;
+    right: 672px;
+    top: 303px;
+    bottom: 761px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* 700 */
+
+    color: #4A5568;
+}
+
+.text-name2 {
+    position: absolute;
+    left: 1341px;
+    right: 400px;
+    top: 303px;
+    bottom: 761px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* 700 */
+
+    color: #4A5568;
+}
+
+.form-name1 {
+    position: absolute;
+    width: 237px;
+    height: 56px;
+    left: 1079px;
+    top: 329px;
+
+    background: #FFFFFF;
+    border: 1px solid #E9EBF0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.form-name2 {
+    position: absolute;
+    width: 237px;
+    height: 56px;
+    left: 1341px;
+    top: 329px;
+
+    background: #FFFFFF;
+    border: 1px solid #E9EBF0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 30px;
+}
+
+
+.login-text-2 {
+    position: absolute;
+    left: 56.2%;
+    right: 41.98%;
+    top: 37.31%;
+    bottom: 61.2%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* 700 */
+
+    color: #4A5568;
+}
+
+/* .login-form {
+    position: absolute;
+    top: 24em;
+    right: 39em;
+} */
+
+.form-email {
+    position: absolute;
+    width: 500px;
+    height: 56px;
+    left: 1079px;
+    top: 429px;
+
+    background: #FFFFFF;
+    border: 1px solid #E9EBF0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.text-email {
+    position: absolute;
+    width: 500px;
+    height: 56px;
+    left: 1079px;
+    top: 395px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* 700 */
+
+    color: #4A5568;
+}
+
+.form-password {
+    position: absolute;
+    width: 500px;
+    height: 56px;
+    left: 1079px;
+    top: 541px;
+
+    background: #FFFFFF;
+    border: 1px solid #4D2BFF;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+}
+
+.text-password {
+    position: absolute;
+    width: 500px;
+    height: 56px;
+    left: 1079px;
+    top: 511px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.login-button {
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 1079px;
+    top: 683px;
+    background-color: #4D2BFF;
+}
+
+.login-button1 {
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 1079px;
+    top: 763px;
+
+    border: 1px solid #292D34;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.login-button1:hover {
+    background-color: rgb(230, 229, 229);
+}
+
+.remember {
+    position: absolute;
+    bottom: 437px;
+    top: 627px;
+    left: 1105px;
+    /* right: 723px;
+    font-size: 14px; */
+}
+
+.login-button:hover {
+    background-color: #251188;
+
+}

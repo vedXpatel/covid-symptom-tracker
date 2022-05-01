@@ -5,9 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- bootstrap
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  
+    <!-- remix-icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
     <link rel="stylesheet" href="login.css">
 
 
@@ -16,24 +27,58 @@
 </head>
 <body>
 
-    <div class="title">
-      <h1>Covid-19 Tracker</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 login-left col-sm-12 col-md-12 left-container">
+            <img src="./images/background.jpg" class="login-left1" alt="" />
+                <h1 class="login-text-left">Covid-19 Symptom Tracker</h1>
+                <!-- <div class="play-button"></div> -->
+            </div>
+            <div class="col-lg-6 col-sm-12 col-md-12 right-container">
+                <h1 class="login-text-right">Welcome Back</h1>
+                <p class="login-welcome"></p>
+                <h4 class="login-text-1">Login into your account</h4>
+                <form class="login-form" onSubmit={handleSubmit}>
+                    <div class="form-group">
+                        <label for="inputEmail" class="text-email">Email</label>
+                        <input type="email" class="form-control form-email" id="inputEmail" placeholder="Email" name="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword" class="text-password">Password</label>
+                        <input type="password" class="form-control form-password" id="inputPassword" placeholder="Password" name="password" />
+                    </div>
+                    <div class="form-group remember">
+                        <label class="form-check-label"><input type="checkbox"/> Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary login-button">Login</button>
+                    
+                    <button type="submit" class="login-button1" >SignUp</button>
+                </form>
+            </div>
+        </div>
     </div>
-    <br>
-    <br>
-    <form action="" class="login-form input-group">
-        <h2 class="login-title">Login</h2>
-        <label for="" class="input-label">Patient Id</label>
-        <input type="text"/>
-        <br>
-        <br>
-        <label for="" class="input-label">Password</label>
-        <input type="password"/>
-        <br><br>
-        <button class="button">Submit</button>
-        <br>
-        <p class="input-label">Not signed In ?</p>
-        <button class="button">Sign Up</button>
-    </form>
 </body>
+
+<script>
+    function validation() {
+        let id = document.getElementById("patientInput").value;
+        let pass = document.getElementById("password").value;
+
+        if(pass.length < 8){
+            alert("Password should be greater than 8 characters");
+        }
+        if(id == ""){
+            alert("Please enter username");
+        }
+    }
+    document.getElementById("submit").addEventListener("click",validation);
+    
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+  </script>
+
 </html>
